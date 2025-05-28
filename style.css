@@ -67,7 +67,14 @@ nav ul li a:hover {
   color: #ffe066;
   font-weight: bold;
 }
-
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
 .btn {
   display: inline-block;
   margin-top: 1.5rem;
